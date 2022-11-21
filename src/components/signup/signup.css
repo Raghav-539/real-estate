@@ -1,0 +1,33 @@
+.sign form div {
+    display: flex;
+  }
+  
+  .sign textarea {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .sign input {
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+  
+  .sign form {
+    padding: 30px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .sign h4 {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .sign form div {
+      flex-direction: column;
+    }
+    .sign input {
+      width: 100%;
+    }
+  }
+  
